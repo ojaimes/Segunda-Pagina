@@ -1,0 +1,114 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+body{
+    background: #ccc;
+}
+#contenedor{
+    height: 1050px;
+    width: 780px;
+    margin-right: auto;
+    margin-left: auto;   
+}
+header,#banner,#noticias,#tienda, #marcas{
+    background: #fff;
+    width: 780px;
+    height: 100px;
+}
+#banner{
+    background: #7D7F7F;
+    height: 300px;    
+}
+#noticias{
+    background: #fff;
+    height: 225px;
+    width: 760px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+#Tienda{
+    width: 760PX;
+    background: #666;
+    height: 190px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+#marcas{
+    background: #fff;
+    height: 100px;    
+}
+footer{
+    background: #f21;
+    width: 780px;
+    height: 40px;
+    padding-top:15px; 
+}
+footer p{
+    font-family: arial;
+    font-size: 10px;
+    text-align: center;
+    }
+#noticias #MMB{
+    background: #F4BB7F;
+    width: 250px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+}
+#noticias #MMC{
+    background: #48F562;
+    width: 250px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+}
+#noticias #MMM{
+    background: #7FF4F4;
+    width: 250px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+}
+.espacio{
+    width: 780;
+    height: 10px;
+    background: #fff;
+}
+#Tienda #NIKE{
+    background: #F61326;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 2px;
+   }
+#Tienda #ADIDAS{
+    background: #72F613;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 2px;
+}
+#Tienda #NEWBALANCE{
+    background: #F6EB13;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 2px;
+}
+#Tienda #SAUCONY{
+    background: #13B2F6;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 2px;
+}
