@@ -16,10 +16,35 @@ header,#banner,#noticias,#tienda, #marcas{
     background: #fff;
     width: 780px;
     height: 100px;
+    header{
+    padding: 8px 15px;
+    }
+    header{
+    width: 750 px;
+    height: 100 px;
+    padding: 8px 15px;
+    }
+}
+header h1{
+    background: #ccc;
+    width: 200px;
+    height: 100px; 
+    display: inline-block
+    
+}
+header #menu{
+    background: #ccc;
+    width: 440px;
+    height: 100;
+    display: inline-block
+    
 }
 #banner{
     background: #7D7F7F;
-    height: 300px;    
+    background-image: url(/img/CAmpo1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;    
 }
 #noticias{
     background: #fff;
@@ -60,6 +85,7 @@ footer p{
     height: 215px;
     display: inline-block;
     vertical-align: top;
+    text-align: center
 }
 #noticias #MMC{
     background: #48F562;
@@ -67,6 +93,7 @@ footer p{
     height: 215px;
     display: inline-block;
     vertical-align: top;
+    text-align: justify;
 }
 #noticias #MMM{
     background: #7FF4F4;
@@ -81,15 +108,16 @@ footer p{
     background: #fff;
 }
 #Tienda #NIKE{
-    background: #F61326;
+    background: #C0C1C1;
     width: 180px;
     height: 180px;
     display: inline-block;
     vertical-align: top;
     margin: 0px 2px;
+    image-resolution: from-image;
    }
 #Tienda #ADIDAS{
-    background: #72F613;
+    background: #C0C1C1;
     width: 180px;
     height: 180px;
     display: inline-block;
@@ -97,7 +125,7 @@ footer p{
     margin: 0px 2px;
 }
 #Tienda #NEWBALANCE{
-    background: #F6EB13;
+    background: #C0C1C1;
     width: 180px;
     height: 180px;
     display: inline-block;
@@ -105,7 +133,7 @@ footer p{
     margin: 0px 2px;
 }
 #Tienda #SAUCONY{
-    background: #13B2F6;
+    background: #C0C1C1;
     width: 180px;
     height: 180px;
     display: inline-block;
